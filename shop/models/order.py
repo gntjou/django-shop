@@ -18,7 +18,7 @@ from django.utils.translation import ugettext_lazy as _, pgettext_lazy, get_lang
 from django.utils.six.moves.urllib.parse import urljoin
 
 from django_fsm import FSMField, transition
-from ipware.ip import get_ip
+from ipware.ip import get_client_ip
 from cms.models import Page
 
 from shop.conf import app_settings
